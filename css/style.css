@@ -1,0 +1,301 @@
+body, h1, h2, h3, p, ul, li, table {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#Top_Picture {
+    max-width: 100%;
+    height: auto;
+}
+
+#Title {
+    margin: 0.5em 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main ul{
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
+
+#Video {
+    margin-bottom: 20px;
+}
+
+.media-content {
+    text-align: center;
+}
+
+#Hobbies_table {
+    margin-bottom: 20px;
+}
+
+#Hobbies_table h1 {
+    color: black;
+    border-bottom: 2px solid #333;
+    font-size: xx-large;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: black;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+section {
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+section h1 {
+    color: black;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: xx-large;
+}
+
+section h2 {
+    color: black;
+    margin-top: 10px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+section p{
+    margin-bottom: 10px;
+    color: black;
+}
+
+section button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+section button:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Media Query ====== */
+@media only screen and (max-width: 600px) {
+    #Title {
+        font-size: large;
+    }
+
+    nav a {
+        width: auto;
+    }
+
+    #Top_Picture{
+        height: 100px;
+        width: 100px;
+    }
+
+    article{
+        font-size: medium;
+    }
+
+    th {
+        font-size: medium;
+    }
+    
+    td {
+        font-size: medium;
+    }
+
+    footer{
+        height: 50px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    #Title {
+        font-size: x-large;
+    }
+
+    nav a {
+        width: 300px;
+    }
+
+    #Top_Picture{
+        height: 150px;
+        width: 150px;
+    }
+
+    article{
+        font-size: large;
+    }
+
+    th {
+        font-size: large;
+    }
+    
+    td {
+        font-size: large;
+    }
+
+    footer{
+        height: 40px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1300px) {
+    #Title {
+        font-size: x-large;
+    }
+
+    nav a {
+        width: 400px;
+    }
+
+    #Top_Picture{
+        height: 170px;
+        width: 170px;
+    }
+}
+
+.elements {
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.elements h1 {
+    color: black;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: xx-large;
+}
+
+.elements h2 {
+    color: black;
+    margin-top: 10px;
+}
+
+.elements p {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.elements img {
+    max-width: 100%;
+    height: auto;
+}
+
+.result {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+#elementQuizForm {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#elementQuizForm fieldset {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+#elementQuizForm legend {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#elementQuizForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#elementQuizForm input[type="radio"] {
+    margin-right: 5px;
+}
+
+#elementQuizForm #submitButton {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#elementQuizForm #submitButton:hover {
+    background-color: white;
+    color: black;
+}

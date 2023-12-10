@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> Cover Page </title> 
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="./assets/image/Profile_Pic.png" alt="Profile_Pic" id="Top_Picture">
+            <h1 id="Title">Brandon Delong Bao</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="Hobbies.html">Hobbies</a>
+                    </li>
+                    <li>
+                        <a href="Fishing_Adventures.html">Brandon's Fishing Adventures</a>
+                    </li>
+                    <li>
+                        <a href="Personality_Quiz.html">Brandon's Genshin Impact Element Quiz</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="Personal_Description">
+                <h1>About Brandon</h1>
+                <article>
+                    <p>Brandon was born on October 7th, 1995, in Honolulu, Hawai'i. He then went to spend
+                        around 12 years in Shanghai until he graduated from high school. Brandon has an undergraduate
+                        degree in Hospitality Management at Pennsylvania State University and a graduated degree in 
+                        Corporate Finance at Pennsylvania State University as well. Currently, Brandon is living in 
+                        his old childhood home in Honolulu and working as a well-known financial institution.
+                    </p>
+                    <p>Brandon has extensive experience working in financial institutions in an analyst role. His first role 
+                        was at a small bank in Coatesville, Pennsylvania, where he worked as an entry-level financial analyst.
+                        The role was a mix of accounting and reporting related tasks, with heavy emphasis on SQL and Excel.
+                        Brandon's second role is at a prominent bank in Hawai'i as a risk management specialist, where he primarily
+                        performs reporting related tasks. Just like the previous role, there was a lot of exposure to SQL and Excel,
+                        but the current roles presents additional exposure to Python, R, and PowerPoint.
+                    </p>
+                    <p>As someone born in on an island paradise in the middle of the Pacific Ocean, the sea naturally calls 
+                        to Brandon's inner desires to explore the unseen depths. He spends much of his free time studying tidepools 
+                        and fishing for new species of fish. Brandon particularly enjoys catching morays eels as he finds them to be
+                        incredibly fascinating creatures. Sharks are also a favorite animal for Brandon, and unfortunately it is illegal
+                        to catch sharks in Hawaii.
+                    </p>
+                    <p>In terms of element representation (see "Brandon's Genshin Impact Element Quiz" for more details), Brandon is strongly 
+                        electro dominant. Meaning he is highly results-oriented and highly focused on achieving his desired outcome. Regrettably, 
+                        his highly focused nature sometimes result in him getting tunnel vision, and ends up flagrantly disregarding the well-being 
+                        and feelings of others around him. As an electro, Brandon is also not afraid to break conventions and challenge the 
+                        status quo, sometimes saying things that make people uncomfortable or making family dinners awkward.
+                    </p>
+                    Linkedin Profile: <a href="https://www.linkedin.com/in/brandon-bao/">https://www.linkedin.com/in/brandon-bao/</a>
+                </article>
+            </section>
+            
+            <section id="Video">
+                <div id="app">
+                <button @click="hide">Hide Video / Show Video</button>
+                <div v-if="showVideo">
+                <h1>"You only live once." - Brandon Bao</h1>
+                <div class="media-content">
+                    <video width="480" src="./assets/video/flying_over_land.mp4" poster="./assets/video/flying_over_land.png" controls></video>
+                </div>
+            </section>
+
+            <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+            <script src="./javascript/vue.js"></script>
+
+        </main>
+
+        <footer>
+            Author: Brandon Delong Bao, <br>
+            12/05/2023
+        </footer> 
+
+    </body>
+
+
+</html>

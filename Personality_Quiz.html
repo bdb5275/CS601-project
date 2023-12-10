@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multiple Choice Questions</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="Title">Genshin Impact Element Quiz</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="Cover_Page.html">Cover Page</a>
+                </li>
+                <li>
+                    <a href="Hobbies.html">Hobbies</a>
+                </li>
+                <li>
+                    <a href="Fishing_Adventures.html">Brandon's Fishing Adventures</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="quizDescription">
+            <h1>About Genshin Impact And This Quiz</h1>
+            <article>
+                <p>Genshin Impact is an action role-playing game developed by miHoYo, a Chinese game development studio. 
+                    The game was released in September 2020 for multiple platforms, including Windows, PlayStation 4, and 
+                    mobile platforms. The game is set in the fantasy world of Teyvat, which is divided into seven distinct 
+                    nations, each inspired by different real-world cultures and elements. Characters can also gain something 
+                    called Elemental Visions, granting them control over one of the seven elemental powers: Anemo (wind), 
+                    Geo (earth), Electro (electricity), Dendro (nature), Hydro (water), Pyro (fire), and Cryo (ice). How
+                    characters gain visions seem to be related to their ambitions and how they strive to conquer the obstacles
+                    preventing them from achieving it.
+                </p>
+                <p>Brandon noticed there seems to be some consistencies in how characters are given a vision and what type of 
+                    vision they receive, and after extensively studying the lore and background of different characters, he 
+                    was able to figure out the common denominator of how visions are given. To re-iterate, visions represents 
+                    a character's ambition and drive, and most importantly how they go about navigating obstacles in order to 
+                    reach their goals. This quiz seeks to replicate that process.
+                </p>
+                <p>NOTE: It is important to distinguish your goal from your work. A cashier working at 7-Eleven likely isn't 
+                    pursuing his life goals so much as merely performing a task necessary for his survival, but once he get 
+                    off work to practice opera singing at home, he most likely is engaging in him desire to become a famous
+                    singer. Goals can also be long-term or short-term, such as the goal of saving one's country from terminal
+                    decline or jumping on the computer play one's favorite video game. So please keep this in mind as you 
+                    complete the quiz below.
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <form action="#" method="post" id="elementQuizForm">
+
+        <!-- Short term goal, obstacle requires quick decision -->
+        <fieldset>
+            <legend>Question 1:</legend>
+            <p>Imagine something you have been wanting to do for a long time and it is coming up this Sunday 
+                (ex: a cruise, a vacation, a concert of your favorite band). However, there is an incident at
+                your house that you simply cannot ignore, perhaps a slightly leaking pipe. How would you go about
+                dealing with this situation?</p>
+            <div>
+                <label>
+                    <input type="radio" name="q1" value="Pyro"> A. Rush home to resolve the issue and then try to make it to
+                    the event in time
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q1" value="Electro"> B. Contact your neighbor to resolve it for you
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q1" value="Hydro"> C. Continue with you plans and deal with the consequences later
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q1" value="Cryo"> D. Accept that you will have to give up on your plans
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q1" value="Anemo"> E. Make new plans for Sunday instead
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q1" value="Geo"> F. Resolve the absolutely most pressing aspect of the issue to leave 
+                    more time for you Sunday plans
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q1" value="Dendro"> G. Make sure to understand how it happened and how to prevent it in the future
+                </label>
+            </div>
+        </fieldset>
+
+        <!-- Overall personal beliefs and values -->
+        <fieldset>
+            <legend>Question 2:</legend>
+            <p>Which of these statements do you consider best describes your approach to life? Do not think on it,
+                just focus on which statement resonated with you the most.
+            </p>
+            <div>
+                <label>
+                    <input type="radio" name="q2" value="Pyro"> A. To continue growing and achieve better results
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q2" value="Electro"> B. To obtain what you desire the most
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q2" value="Hydro"> C. To pursue the hobbies you enjoy the most
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q2" value="Cryo"> D. To be loved unconditionally be do the same to others
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q2" value="Anemo"> E. To be free from all burdens and troubles
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q2" value="Geo"> F. To be a leader that friends and families can depend on
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q2" value="Dendro"> G. To understand the world and all its wonders
+                </label>
+            </div>
+        </fieldset>
+
+        <!-- Desired relationship to society -->
+        <fieldset>
+            <legend>Question 3:</legend>
+            <p>Picture your ideal society, which of these traits would describe it the most? Do not think on it,
+                just pick the trait that resonated with you the most.
+            </p>
+            <div>
+                <label>
+                    <input type="radio" name="q3" value="Pyro"> A. A meritocratic society that values competance
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q3" value="Electro"> B. A society that protects your core interests
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q3" value="Hydro"> C. A just society that values fairness and equality
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q3" value="Cryo"> D. An open society that accepts and accommodates all
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q3" value="Anemo"> E. A society that values personal freedom
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q3" value="Geo"> F. A society that values stability and safety
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q3" value="Dendro"> G. A society that values progress and knowledge
+                </label>
+            </div>
+        </fieldset>
+
+        <!-- Obstacle is other people -->
+        <fieldset>
+            <legend>Question 4:</legend>
+            <p>You are the director of a small team working towards a specific goal of your choosing, while all your
+                team members are quite hard working, you noticed one of your team member appears to be underperforming
+                relative to other members. You have noticed this since the team was formed and you have noted your concerns
+                with that member a couple times in the past already, but have yet to see any changes. How do you proceed?
+            </p>
+            <div>
+                <label>
+                    <input type="radio" name="q4" value="Pyro"> A. Sit down with him and seriously relay your concerns to him,
+                    give him a month and if he does not improve within that time then have him replaced
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q4" value="Electro"> B. Have him replaced immediately
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q4" value="Hydro"> C. Put in extra effort to train and mentor him to bring his
+                    capabilities on par with other members
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q4" value="Cryo"> D. Just accept his difference and move on
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q4" value="Anemo"> E. Shift some workload or responsibilities around, or perhaps 
+                    adjust the short-term and long-term expectations
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q4" value="Geo"> F. You pick up the slack and put in the extra hours yourself
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q4" value="Dendro"> G. See if there are issues with your management style
+                </label>
+            </div>
+        </fieldset>
+
+        <!-- Long term goal, obstacle has multiple solutions -->
+        <fieldset>
+            <legend>Question 5:</legend>
+            <p>Imagine that you are public servant in a small kingdom. The kingdom is very clearly in decline with rising poverty
+                rates and declining living standards. Worst of all is that the king seems completely oblivious to al this and spends
+                most of his time hosting elaborate parties at his palace. Which course of action would you most likely take?</p>
+            <div>
+                <label>
+                    <input type="radio" name="q5" value="Pyro"> A. Apply for the royal viceroy examination and work with the king to 
+                    set things back on track
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q5" value="Electro"> B. Gather your allies and take power yourself
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q5" value="Hydro"> C. Continue to focus on your duties and perform them to the best of your
+                    abilities
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q5" value="Cryo"> D. Empires rise and fall and that is simply the cycle of history
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q5" value="Anemo"> E. Resign from your position to migrate to the more prosperous
+                    neighboring kingdom
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q5" value="Geo"> F. Work with other concerned public servants to incrementally pass
+                    reforms to slowly turn things around
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q5" value="Dendro"> G. Focus on facts and data to get an objective idea on how 
+                    things really are in the kingdom
+                </label>
+            </div>
+        </fieldset>
+
+        <!-- What they care about the most -->
+        <fieldset>
+            <legend>Question 6:</legend>
+            <p>Which of these is most important to you? Don't think on it, just pick the one that resonates with you the most.</p>
+            <div>
+                <label>
+                    <input type="radio" name="q6" value="Pyro"> A. Work
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q6" value="Electro"> B. Yourself
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q6" value="Hydro"> C. Hobbies
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q6" value="Cryo"> D. Love
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q6" value="Anemo"> E. Freedom
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q6" value="Geo"> F. Stability
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q6" value="Dendro"> G. Wisdom
+                </label>
+            </div>
+        </fieldset>
+
+        <!-- How they view their current success -->
+        <fieldset>
+            <legend>Question 7:</legend>
+            <p>What is one thing about you that you are most proud of? Pick one that aligns most closely.</p>
+            <div>
+                <label>
+                    <input type="radio" name="q7" value="Pyro"> A. Your work ethic
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q7" value="Electro"> B. Your independence
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q7" value="Hydro"> C. Your passion
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q7" value="Cryo"> D. Your tolerance
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q7" value="Anemo"> E. Your chill and care-free attitude
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q7" value="Geo"> F. Your dependability
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q7" value="Dendro"> G. Your expertise
+                </label>
+            </div>
+        </fieldset>
+
+        <!-- Self perceived approach to navigating obstacles -->
+        <fieldset>
+            <legend>Question 8:</legend>
+            <p>As you work towards your goals in life, you inevitably will encounter obstacles along the way.
+                When your efforts seemingly don't yield any results, how do you typically respond to it?</p>
+            <div>
+                <label>
+                    <input type="radio" name="q8" value="Pyro"> A. Try to identify your biggest weak point 
+                    and refocus your efforts there
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q8" value="Electro"> B. Seek out additional resources to help you out
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q8" value="Hydro"> C. Take a step back to relax a little, then
+                    come back later after feeling more replenished
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q8" value="Cryo"> D. You tend to give up
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q8" value="Anemo"> E. Re-align your expectations for a more
+                    achievable goal
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q8" value="Geo"> F. Remain confident and continue to do what you have been doing
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q8" value="Dendro"> G. Make small changes to your approach and 
+                    see if it yields different result
+                </label>
+            </div>
+        </fieldset>
+
+        <!-- Short term goal, multiple solutions to obstacle -->
+        <fieldset>
+            <legend>Question 9:</legend>
+            <p>You and your friends head over to an outdoor stadium for an event you all have been excited for 
+                (ex: favorite band, favorite speaker), however, the event was overbooked and you were denied entry 
+                to the stadium despite having purchased tickets. They offered full refunds for your tickets, but it
+                feels like a shame to just leave. Which course action do you prefer the most?</p>
+            <div>
+                <label>
+                    <input type="radio" name="q9" value="Pyro"> A. Demand to see the manager and scold them until 
+                    they let you and your friends through
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q9" value="Electro"> B. Find an unguarded spot in the perimeter and 
+                    climb over the fence
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q9" value="Hydro"> C. Find a nearby spot where you can hear the event
+                    inside the stadium and have a private event with your friends
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q9" value="Cryo"> D. Leave the stadium and go home
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q9" value="Anemo"> E. Try to find people inside the event and see if 
+                    they are willing to trade places with you
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q9" value="Geo"> F. Remain calm and try to convince the security guard 
+                    to just let you through
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q9" value="Dendro"> G. Try to convince the manager that the event isn't 
+                    overbooked and that they could easily fit a couple more spots in around the corners
+                </label>
+            </div>
+        </fieldset>
+
+        <!-- Long term goal, obstacle represents imminent danger -->
+        <fieldset>
+            <legend>Question 10:</legend>
+            <p>Assume you were made the leader of the world, and you know that unless direct actions were taken, within a generation the polar ice caps
+                will melt and result significant land loss. Which strategy would you immediately implement first?</p>
+            <div>
+                <label>
+                    <input type="radio" name="q10" value="Pyro"> A. Divert all resources to investments in alternative energy and 
+                    alternative food production
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q10" value="Electro"> B. Introduce strict engery quotas and ban all high emmission 
+                    activities
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q10" value="Hydro"> C. Promote low emmission lifestyles and start educational broadcasts
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q10" value="Cryo"> D. Develop highland areas to into food production areas, move population
+                    centers inland
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q10" value="Anemo"> E. Fund researches for geoengineering (technologies that enable environment manipulation)
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q10" value="Geo"> F. Develop economic plans to gradually replace all high emmission 
+                    powerplants with clean energy powerplants
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q10" value="Dendro"> G. Closely monitor sea levels and temperature and begin testing different 
+                    solutions
+                </label>
+            </div>
+        </fieldset>
+
+        <!-- Dealing with setbacks -->
+        <fieldset>
+            <legend>Question 11:</legend>
+            <p>How do you usually respond to major setbacks when working towards your goal?</p>
+            <div>
+                <label>
+                    <input type="radio" name="q11" value="Pyro"> A. You would feel disappointed but would eventually get motivated 
+                    to keep trying
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q11" value="Electro"> B. You feel frustration and even anger and promise yourself 
+                    it won't happen again
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q11" value="Hydro"> C. You feel flustered and would take a break from your work
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q11" value="Cryo"> D. You remain calm and gracefully accept the setback
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q11" value="Anemo"> E. You feel discouraged and would look for alternative solutions
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q11" value="Geo"> F. You feel somewhat let down but would remain confident in yourself
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q11" value="Dendro"> G. You feel confused and would try to make sense of it
+                </label>
+            </div>
+        </fieldset>
+
+        <!-- Dealing with total failure -->
+        <fieldset>
+            <legend>Question 12:</legend>
+            <p>Take the above question but instead of a temporary setback, it is a total failure. Meaning you don't get a second chance
+                and at best you can only watch other people pursue your goal. How do you think you might respond?</p>
+            <div>
+                <label>
+                    <input type="radio" name="q12" value="Pyro"> A. Fall into a deep depression and will need a very long time 
+                    to recover fully, if at all
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q12" value="Electro"> B. Feel extreme anger and self-hatred, and might even develop 
+                    a hatred towards those that can still pursue their goals
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q12" value="Hydro"> C. Fall into denial and will try to isolate yourself off into 
+                    your own safe space
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q12" value="Cryo"> D. Deal with the emotional baggage head on and eventually overcome it
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q12" value="Anemo"> E. Feel very anxious and will try to look for distractions or alternatives
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q12" value="Geo"> F. You retire fully from your pursuits, somewhat broken but still able 
+                    to keep it together
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q12" value="Dendro"> G. You would try to record your experience and try to pass it on
+                </label>
+            </div>
+        </fieldset>
+
+        <!-- How you would sell yourself -->
+        <fieldset>
+            <legend>Question 13:</legend>
+            <p>You are interviewing for your dream job (or a high paying job if you don't have one), and the interviewer asked you
+                why should they hire you. How do you respond to this question?</p>
+            <div>
+                <label>
+                    <input type="radio" name="q13" value="Pyro"> A. Speak about you diligent work ethics and your willingness to rise 
+                    to the challenge
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q13" value="Electro"> B. Emphasize your results-oriented approach to solving challenges
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q13" value="Hydro"> C. Bring up your passion and love for the industry and the work you 
+                    will be doing
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q13" value="Cryo"> D. Talk about your openness to experience and ability to quickly bounce
+                    back from setbacks
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q13" value="Anemo"> E. Explore your creativity and ability to think outside the box
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q13" value="Geo"> F. Deliberate your confidence as a consistent and reliable high performer
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="q13" value="Dendro"> G. Elaborate on your logical, analytical, and facts-driven approach 
+                    to problem solving
+                </label>
+            </div>
+        </fieldset>
+
+        <input type="submit" id="submitButton" value="Submit">
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var submitButton = document.getElementById('submitButton');
+
+                submitButton.addEventListener('click', function() {
+                    window.location.href = 'Element_Description.html';
+                });
+            });
+        </script>
+    </form>
+
+    <!-- <div class="result" id="quizResult"> -->
+        <!-- Results -->
+    <!-- </div> -->
+
+    <script src="./javascript/quiz.js"></script>
+
+    <footer>
+        Author: Brandon Delong Bao, <br>
+        12/05/2023
+    </footer> 
+
+
+</body>
+</html>
