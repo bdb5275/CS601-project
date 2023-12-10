@@ -2,7 +2,7 @@
 CS 601 Final Project by Brandon Bao
 
 Overview:
-This project is a quick introduction of Brandon as a person and his background, as well as a personality quiz that Bradnon has developed.
+This project is a quick introduction of Brandon as a person and his background, as well as a personality quiz that Brandon has developed.
 
 Link:
 https://effulgent-kashata-fb0dbe.netlify.app/cover_page
